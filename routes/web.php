@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $hw = "Hello, World!!";
+    return view('home', compact("hw"));
 });

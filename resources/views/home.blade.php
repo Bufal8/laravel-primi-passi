@@ -21,6 +21,6 @@
         </style>
     </head>
     <body>
-        <h1>LARAVEL HELLO WORLD!!!</h1>
+        <h1>LARAVEL {{ $hw }}</h1>
     </body>
 </html>
