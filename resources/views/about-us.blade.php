@@ -21,10 +21,6 @@
         </style>
     </head>
     <body>
-        <h1>LARAVEL {{ $hw }}</h1>
-        <ul class="d-flex">
-            <li><a href="http://127.0.0.1:8000/about-us"><strong>about us</strong></a></li>
-            <li><a href="http://127.0.0.1:8000/shop"><strong>shop</strong></a></li>
-        </ul>
+        <h1>LARAVEL {{ $au }}</h1>
     </body>
 </html>

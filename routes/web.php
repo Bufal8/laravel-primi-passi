@@ -18,3 +18,15 @@ Route::get('/', function () {
     $hw = "Hello, World!!";
     return view('home', compact("hw"));
 });
+
+Route::get('about-us', function () {
+
+    $au = "About Us";
+    return view('about-us', compact("au"));
+});
+
+Route::get('shop', function () {
+
+    $sh = "Shop";
+    return view('shop', compact("sh"));
+});
